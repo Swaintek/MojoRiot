@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mojo Riot</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mojo Riot</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for Slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="images/mojo.jpg" alt="Mojo">
+          <div class="carousel-caption">
+            <h3>Mojo</h3>
+            <p>Oh man this band is awesome</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/riot.jpg" alt="Riot">
+          <div class="carousel-caption">
+            <h3>Riot</h3>
+            <p>I hope the guitarist talks to me after the show</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/band.jpg" alt="Band">
+          <div class="carousel-caption">
+            <h3>Band</h3>
+            <p>Did the drummer just break another stick?</p>
+          </div>
+        </div>
+      </div>
+      <!--Left and Right Controls-->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+
+
+
+    <div id="band" class="container text-center">
+
+    <h3>Mojo Riot</h3>
+    <p><em>Seattle Rock And Roll</em></p>
+    <p>This is something we can say about our band.</p>
+
+    <div class="row">
+
+      <div class="col-sm-3">
+        <p><strong>Kevin Redlich</strong></p><br>
+        <a href="#redlich" data-toggle="collapse">
+          <image src="images/redlich.jpg" class="img-circle person" alt="Kevin Redlich">
+        </a>
+        <div id="redlich" class="collapse">
+          <p>Guitar, Vocals</p>
+          <p>The struggle is real</p>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <p><strong>David Swaintek</strong></p><br>
+        <a href="#swaintek" data-toggle="collapse">
+          <image src="images/swaintek.jpg" class="img-circle person" alt="David Swaintek">
+        </a>
+        <div id="swaintek" class="collapse">
+          <p>Piano, Organ, Mandolin, Vocals</p>
+          <p>War is stupid</p>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <p><strong>Nick Wilson</strong></p><br>
+        <a href="#wilson" data-toggle="collapse">
+          <image src="images/wilson.jpg" class="img-circle person" alt="Nick Wilson">
+        </a>
+        <div id="wilson" class="collapse">
+          <p>Bass</p>
+          <p>Ask me about gear</p>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <p><strong>Jeff Snyder</strong></p><br>
+        <a href="#snyder" data-toggle="collapse">
+          <image src="images/snyder.png" class="img-circle person" alt="Jeff Snyder">
+        </a>
+        <div id="snyder" class="collapse">
+          <p>Drums</p>
+          <p>They call me Turquoise Jesus</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <div id="tour" class="bg-1">
+
+    <div class="container">
+      <h3 class="text-center">TOUR DATES</h3>
+      <p class="text-center">Currently on tour in the Pacific Northwest</p>
+
+      <ul class="list-group">
+        <li class="list-group-item">April<span class="badge">1</span></li>
+        <li class="list-group-item">May</li>
+        <li class="list-group-item">June<span class="badge">2</span></li>
+      </ul>
+
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="images/tims.jpg" alt="Tim's Tavern">
+            <p><strong>Tim's Tavern</strong></p>
+            <p>Seattle, WA</p>
+            <p>Sat. 29 April 2017</p>
+            <a href="https://timslivemusic.com/" class="btn">Buy Tickets</a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="images/valentines.gif" alt="Valentine's">
+            <p><strong>Valentine's</strong></p>
+            <p>Portland, OR</p>
+            <p>Mon. 12 June 2017</p>
+            <a href="http://www.valentinespdx.com/" class="btn">Buy Tickets</a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="images/musicquarium.jpg" alt="Tim's Tavern">
+            <p><strong>Musicquarium at the Triple Door</strong></p>
+            <p>Tue. 13 June 2017</p>
+            <a href="http://thetripledoor.net/Calendar.aspx" class="btn">Buy Tickets</a>
+          </div>
+        </div>
+    </div>
+
+  </div>
+
+  <div id="contact" class="container">
+    <h3 class="text-center">Contact</h3>
+    <p class="text-center"><em>Please email for booking</em></p>
+    <div class="row test">
+      <div class="col-md-4">
+        <p>Contact The Band</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span>Seattle, WA</p>
+        <p><span class="glyphicon glyphicon-phone"></span>(206)898-2277</p>
+        <p><span class="glyphicon glyphicon-envelope"></span>Email: dswaintek@gmail.com</p>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Type your email here..." rows="5">
+        </textarea>
+        <div class="row">
+          <div class="col-md-12 form-group">
+            <button class="btn pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center">
+    <a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <p>Web design by Space Outlaw Industries</p>
+  </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
